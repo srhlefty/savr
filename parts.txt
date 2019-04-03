@@ -1,0 +1,26 @@
+FPGA:
+XC7Z015-1CLG485
+122-2190-ND
+(Note pin compatible with the XC7Z030 in the CLG485 package)
+
+DDR3 memory:
+AS4C256M16D3B-12BCN
+4Gb (256Mx16) 800MHz DDR3
+1450-1394-ND
+
+JTAG boot?
+
+SATA connector:
+Molex 0877791001
+22 Position SATA Receptacle Connector Solder Through Hole
+WM2071-ND
+
+HDMI connector:
+CNC Tech 2000-1-1-20-00-BK
+1175-1700-ND
+HDMI  Receptacle Connector 19 Position Through Hole, Right Angle
+
+Ethernet PHY:
+DP83867CRRGZ
+10/100/1000 Ethernet PHY
+296-51057-1-ND
