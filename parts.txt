@@ -2,68 +2,89 @@ FPGA:
 XC7Z015-1CLG485
 122-2190-ND
 (Note pin compatible with the XC7Z030 in the CLG485 package)
+PS rails: 1.0, 1.5, 1.8, MIO banks (1.8 to 3.3)
+PL rails: 1.0, 1.5, 1.8, banks (1.2 to 3.3)
 
 DDR3 memory:
 AS4C256M16D3B-12BCN
 4Gb (256Mx16) 800MHz DDR3
 1450-1394-ND
+Rails: 1.5, 0.75 (ref)
 
 USB-UART bridge:
 Silicon Labs CP2102N-A02-GQFN20R
 USB Bridge, USB to UART USB 2.0 UART Interface 20-QFN (3x3)
 336-5886-1-ND
+Rails: 5.0 (bus-powered). Note provides 3.3 when powered.
 
-SATA connector:
+SATA connector, data + power:
 Molex 0877791001
 22 Position SATA Receptacle Connector Solder Through Hole
 WM2071-ND
+Rails: 3.3, 5.0, 12.0
+
+SATA connector, just data:
+Molex 0678007001
+7 Position SATA Header, Shrouded Connector Solder Through Hole
+WM10114-ND
+Rails: none
 
 HDMI connector:
 CNC Tech 2000-1-1-20-00-BK
 HDMI Receptacle Connector 19 Position Through Hole, Right Angle
 1175-1700-ND
+Rails: 5.0 (if output)
 
 Ethernet PHY:
 DP83867CRRGZ
 10/100/1000 Ethernet PHY
 296-51057-1-ND
+Rails: 1.0, 1.8 OR 2.5 OR 3.3
 
 Ethernet jack:
 Stewart Connector SS-7188S-A-NF
 Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded Cat5e
 380-1047-ND
+Rails: none
 
 uSD slot:
 Molex 5025700893
 10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
 WM19093CT-ND
+Rails: 3.3
 
 USB connector for UART:
 Amphenol 10118193-0001LF
 USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole
 609-4616-1-ND
+Rails: 5.0
 
 Buttons:
 C&K PTS 647 SK38 SMTR2 LFS
 Tactile Switch SPST-NO Top Actuated Surface Mount
 PTS647SK38SMTR2LFSCT-ND
+Rails: none
 
 Power connector:
 Switchcraft RAPC712X
 Power Barrel Connector Jack 2.50mm ID (0.098"), 5.50mm OD (0.217") Through Hole, Right Angle
 SC237-ND
+Rails: none
 
 Main oscillator:
 Microchip DSC1001DI1-050.0000 (chosen to be a multiple of the DDR frequency)
 50MHz XO (Standard) CMOS Oscillator 1.8V ~ 3.3V Standby (Power Down) 4-SMD, No Lead
 576-4968-5-ND
+Rails: 1.8 OR 2.5 OR 3.3
 
 Ethernet oscillator:
 Microchip DSC1001DI1-025.0000 (required by PHY)
 25MHz XO (Standard) CMOS Oscillator 1.8V ~ 3.3V Standby (Power Down) 4-SMD, No Lead
 576-4966-5-ND
+Rails: 1.8 OR 2.5 OR 3.3
 
 DDR voltage regulator:
 Texas Instruments TPS51206DSQR
 Converter, DDR Voltage Regulator IC 1 Output 10-SON (2x2)
 296-28767-1-ND
+Rails: 1.5, 3.3 OR 5.0; provides 0.75
