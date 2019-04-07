@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC7Z030-CLG485
+D Zynq XC7Z030-CLG485
+K FPGA
+$ENDCMP
+#
+#End Doc Library
