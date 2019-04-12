@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:savr_board-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -48,17 +49,6 @@ F 3 "" H 4850 -550 50  0000 C CNN
 $EndComp
 $Comp
 L savr_symbols:XC7Z030-CLG485 U1
-U 4 1 5CB1A034
-P 7900 750
-F 0 "U1" H 7950 800 50  0000 L CNN
-F 1 "XC7Z030-CLG485" H 14894 -2420 50  0000 L CNN
-F 2 "savr_board:BGA-484_22x22_19.0x19.0mm" H 9400 -5500 50  0001 C CNN
-F 3 "" H 9400 -5500 50  0000 C CNN
-	4    7900 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L savr_symbols:XC7Z030-CLG485 U1
 U 5 1 5CB22D37
 P -2100 4000
 F 0 "U1" H -1475 4167 50  0000 C CNN
@@ -77,17 +67,6 @@ F 1 "DDR3_256Mx16" H 5050 8574 50  0000 C CNN
 F 2 "savr_board:BGA-96_9x16_9.0x13.5mm" H 4650 8600 50  0001 C CNN
 F 3 "" H 4650 8600 50  0001 C CNN
 	1    4650 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L savr_symbols:DDR3_256Mx16 U3
-U 1 1 5CB40C06
-P 7700 8600
-F 0 "U3" H 8100 8665 50  0000 C CNN
-F 1 "DDR3_256Mx16" H 8100 8574 50  0000 C CNN
-F 2 "savr_board:BGA-96_9x16_9.0x13.5mm" H 7700 8600 50  0001 C CNN
-F 3 "" H 7700 8600 50  0001 C CNN
-	1    7700 8600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -491,87 +470,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 13200 4400 13200
 Wire Wire Line
-	7200 8800 7450 8800
-Wire Wire Line
-	7200 8900 7450 8900
-Wire Wire Line
-	7200 9000 7450 9000
-Wire Wire Line
-	7200 9150 7450 9150
-Wire Wire Line
-	7200 9250 7450 9250
-Wire Wire Line
-	7200 9350 7450 9350
-Wire Wire Line
-	7200 9500 7450 9500
-Wire Wire Line
-	7200 9600 7450 9600
-Wire Wire Line
-	7200 9700 7450 9700
-Wire Wire Line
-	7200 9800 7450 9800
-Wire Wire Line
-	7200 9900 7450 9900
-Wire Wire Line
-	7200 10000 7450 10000
-Wire Wire Line
-	7200 10100 7450 10100
-Wire Wire Line
-	7200 10200 7450 10200
-Wire Wire Line
-	7200 10300 7450 10300
-Wire Wire Line
-	7200 10400 7450 10400
-Wire Wire Line
-	7200 10500 7450 10500
-Wire Wire Line
-	7200 10600 7450 10600
-Wire Wire Line
-	7200 10700 7450 10700
-Wire Wire Line
-	7200 10800 7450 10800
-Wire Wire Line
 	7200 10900 7450 10900
-Text Label 7200 8800 0    50   ~ 0
-RAS
-Text Label 7200 8900 0    50   ~ 0
-CAS
-Text Label 7200 9000 0    50   ~ 0
-WE
-Text Label 7200 9150 0    50   ~ 0
-BA0
-Text Label 7200 9250 0    50   ~ 0
-BA1
-Text Label 7200 9350 0    50   ~ 0
-BA2
-Text Label 7200 9500 0    50   ~ 0
-A0
-Text Label 7200 9600 0    50   ~ 0
-A1
-Text Label 7200 9700 0    50   ~ 0
-A2
-Text Label 7200 9800 0    50   ~ 0
-A3
-Text Label 7200 9900 0    50   ~ 0
-A4
-Text Label 7200 10000 0    50   ~ 0
-A5
-Text Label 7200 10100 0    50   ~ 0
-A6
-Text Label 7200 10200 0    50   ~ 0
-A7
-Text Label 7200 10300 0    50   ~ 0
-A8
-Text Label 7200 10400 0    50   ~ 0
-A9
-Text Label 7200 10500 0    50   ~ 0
-A10
-Text Label 7200 10600 0    50   ~ 0
-A11
-Text Label 7200 10700 0    50   ~ 0
-A12
-Text Label 7200 10800 0    50   ~ 0
-A13
 Text Label 7200 10900 0    50   ~ 0
 A14
 Wire Wire Line
@@ -737,10 +636,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 9350 6150 9350
 Wire Wire Line
-	8750 9500 9200 9500
-Wire Wire Line
-	8750 10700 9200 10700
-Wire Wire Line
 	5700 8800 6150 8800
 Text Label 6150 8800 0    50   ~ 0
 DDR_RST
@@ -753,34 +648,6 @@ DDR_CKP
 Text Label 6150 9250 0    50   ~ 0
 DDR_CKN
 Text Label 6150 9350 0    50   ~ 0
-DDR_CKE
-Text Label 9200 9500 0    50   ~ 0
-DDR_VREF
-Text Label 9200 10700 0    50   ~ 0
-DDR_VREF
-Wire Wire Line
-	8750 8900 9200 8900
-Wire Wire Line
-	8750 9000 9200 9000
-Wire Wire Line
-	8750 9150 9200 9150
-Wire Wire Line
-	8750 9250 9200 9250
-Wire Wire Line
-	8750 9350 9200 9350
-Wire Wire Line
-	8750 8800 9200 8800
-Text Label 9200 8800 0    50   ~ 0
-DDR_RST
-Text Label 9200 8900 0    50   ~ 0
-DDR_ODT
-Text Label 9200 9000 0    50   ~ 0
-DDR_CS
-Text Label 9200 9150 0    50   ~ 0
-DDR_CKP
-Text Label 9200 9250 0    50   ~ 0
-DDR_CKN
-Text Label 9200 9350 0    50   ~ 0
 DDR_CKE
 Wire Wire Line
 	5700 9500 6150 9500
@@ -1783,4 +1650,138 @@ Text Label 2850 6300 0    50   ~ 0
 MVREF
 Text Label 2850 6400 0    50   ~ 0
 MCAL
+Text Label 9200 9350 0    50   ~ 0
+DDR_CKE
+Text Label 9200 9250 0    50   ~ 0
+DDR_CKN
+Text Label 9200 9150 0    50   ~ 0
+DDR_CKP
+Text Label 9200 9000 0    50   ~ 0
+DDR_CS
+Text Label 9200 8900 0    50   ~ 0
+DDR_ODT
+Text Label 9200 8800 0    50   ~ 0
+DDR_RST
+Wire Wire Line
+	8750 8800 9200 8800
+Wire Wire Line
+	8750 9350 9200 9350
+Wire Wire Line
+	8750 9250 9200 9250
+Wire Wire Line
+	8750 9150 9200 9150
+Wire Wire Line
+	8750 9000 9200 9000
+Wire Wire Line
+	8750 8900 9200 8900
+Text Label 9200 10700 0    50   ~ 0
+DDR_VREF
+Text Label 9200 9500 0    50   ~ 0
+DDR_VREF
+Wire Wire Line
+	8750 10700 9200 10700
+Wire Wire Line
+	8750 9500 9200 9500
+Text Label 7200 10800 0    50   ~ 0
+A13
+Text Label 7200 10700 0    50   ~ 0
+A12
+Text Label 7200 10600 0    50   ~ 0
+A11
+Text Label 7200 10500 0    50   ~ 0
+A10
+Text Label 7200 10400 0    50   ~ 0
+A9
+Text Label 7200 10300 0    50   ~ 0
+A8
+Text Label 7200 10200 0    50   ~ 0
+A7
+Text Label 7200 10100 0    50   ~ 0
+A6
+Text Label 7200 10000 0    50   ~ 0
+A5
+Text Label 7200 9900 0    50   ~ 0
+A4
+Text Label 7200 9800 0    50   ~ 0
+A3
+Text Label 7200 9700 0    50   ~ 0
+A2
+Text Label 7200 9600 0    50   ~ 0
+A1
+Text Label 7200 9500 0    50   ~ 0
+A0
+Text Label 7200 9350 0    50   ~ 0
+BA2
+Text Label 7200 9250 0    50   ~ 0
+BA1
+Text Label 7200 9150 0    50   ~ 0
+BA0
+Text Label 7200 9000 0    50   ~ 0
+WE
+Text Label 7200 8900 0    50   ~ 0
+CAS
+Text Label 7200 8800 0    50   ~ 0
+RAS
+Wire Wire Line
+	7200 10800 7450 10800
+Wire Wire Line
+	7200 10700 7450 10700
+Wire Wire Line
+	7200 10600 7450 10600
+Wire Wire Line
+	7200 10500 7450 10500
+Wire Wire Line
+	7200 10400 7450 10400
+Wire Wire Line
+	7200 10300 7450 10300
+Wire Wire Line
+	7200 10200 7450 10200
+Wire Wire Line
+	7200 10100 7450 10100
+Wire Wire Line
+	7200 10000 7450 10000
+Wire Wire Line
+	7200 9900 7450 9900
+Wire Wire Line
+	7200 9800 7450 9800
+Wire Wire Line
+	7200 9700 7450 9700
+Wire Wire Line
+	7200 9600 7450 9600
+Wire Wire Line
+	7200 9500 7450 9500
+Wire Wire Line
+	7200 9350 7450 9350
+Wire Wire Line
+	7200 9250 7450 9250
+Wire Wire Line
+	7200 9150 7450 9150
+Wire Wire Line
+	7200 9000 7450 9000
+Wire Wire Line
+	7200 8900 7450 8900
+Wire Wire Line
+	7200 8800 7450 8800
+$Comp
+L savr_symbols:DDR3_256Mx16 U3
+U 1 1 5CB40C06
+P 7700 8600
+F 0 "U3" H 8100 8665 50  0000 C CNN
+F 1 "DDR3_256Mx16" H 8100 8574 50  0000 C CNN
+F 2 "savr_board:BGA-96_9x16_9.0x13.5mm" H 7700 8600 50  0001 C CNN
+F 3 "" H 7700 8600 50  0001 C CNN
+	1    7700 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L savr_symbols:XC7Z030-CLG485 U1
+U 4 1 5CB1A034
+P 7900 750
+F 0 "U1" H 7950 800 50  0000 L CNN
+F 1 "XC7Z030-CLG485" H 14894 -2420 50  0000 L CNN
+F 2 "savr_board:BGA-484_22x22_19.0x19.0mm" H 9400 -5500 50  0001 C CNN
+F 3 "" H 9400 -5500 50  0000 C CNN
+	4    7900 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
