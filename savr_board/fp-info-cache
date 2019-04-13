@@ -1,4 +1,4 @@
-15820579253112426
+15823689798705671
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -64912,6 +64912,20 @@ BGA-484_22x22_19.0x19.0mm
 484
 savr_board
 SATA-7
+
+
+0
+9
+7
+savr_board
+SATA-7-SMD
+
+
+0
+9
+7
+savr_board
+SATA-7-SMD-vert
 
 
 0

@@ -1,4 +1,4 @@
-FPGA:
+﻿FPGA:
 XC7Z015-1CLG485
 122-2190-ND
 (Note pin compatible with the XC7Z030 in the CLG485 package)
@@ -24,9 +24,9 @@ WM2071-ND
 Rails: 3.3, 5.0, 12.0
 
 SATA connector, just data:
-Molex 0678007001
-7 Position SATA Header, Shrouded Connector Solder Through Hole
-WM10114-ND
+Molex 0678005005
+7 Position SATA Header, Shrouded Connector Solder Surface Mount
+WM19104-ND
 Rails: none
 
 HDMI connector:

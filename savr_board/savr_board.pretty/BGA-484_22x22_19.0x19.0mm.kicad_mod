@@ -1,4 +1,4 @@
-(module BGA-484_22x22_19.0x19.0mm (layer F.Cu) (tedit 5CB016B3)
+(module BGA-484_22x22_19.0x19.0mm (layer F.Cu) (tedit 5CB11FE2)
   (attr smd)
   (fp_text reference REF** (at 8.4 -2.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -513,4 +513,9 @@
   (pad Y22 smd circle (at 16.8 15.2) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad AA22 smd circle (at 16.8 16) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad AB22 smd circle (at 16.8 16.8) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-484_23.0x23.0mm_Layout22x22_P1.0mm.step
+    (offset (xyz 8.4 -8.4 0))
+    (scale (xyz 0.8 0.8 0.8))
+    (rotate (xyz 0 0 0))
+  )
 )
