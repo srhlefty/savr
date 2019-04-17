@@ -1675,25 +1675,23 @@ Wire Wire Line
 Wire Wire Line
 	4400 9500 4150 9500
 Wire Wire Line
-	4400 9900 4150 9900
+	4400 10100 4150 10100
 Wire Wire Line
 	4400 10500 4150 10500
 Wire Wire Line
 	4400 10700 4150 10700
 Wire Wire Line
-	4400 10800 4150 10800
-Wire Wire Line
-	4400 10100 4150 10100
-Wire Wire Line
 	4400 10200 4150 10200
 Wire Wire Line
-	4400 9600 4150 9600
+	4400 10300 4150 10300
 Wire Wire Line
-	4400 10900 4150 10900
+	4400 9900 4150 9900
 Wire Wire Line
 	4400 10600 4150 10600
 Wire Wire Line
-	4400 10300 4150 10300
+	4400 9600 4150 9600
+Wire Wire Line
+	4400 10800 4150 10800
 Text Label 4150 9700 0    50   ~ 0
 A0
 Text Label 4150 9800 0    50   ~ 0
@@ -1704,25 +1702,23 @@ Text Label 4150 10000 0    50   ~ 0
 A3
 Text Label 4150 9500 0    50   ~ 0
 A4
-Text Label 4150 9900 0    50   ~ 0
-A5
-Text Label 4150 10500 0    50   ~ 0
-A6
-Text Label 4150 10700 0    50   ~ 0
-A7
-Text Label 4150 10800 0    50   ~ 0
-A8
 Text Label 4150 10100 0    50   ~ 0
-A9
-Text Label 4150 10200 0    50   ~ 0
-A10
+A5
+Text Label 4150 9900 0    50   ~ 0
+A6
 Text Label 4150 9600 0    50   ~ 0
-A11
-Text Label 4150 10900 0    50   ~ 0
-A12
-Text Label 4150 10600 0    50   ~ 0
-A13
+A7
+Text Label 4150 10200 0    50   ~ 0
+A8
 Text Label 4150 10300 0    50   ~ 0
+A9
+Text Label 4150 10500 0    50   ~ 0
+A10
+Text Label 4150 10600 0    50   ~ 0
+A11
+Text Label 4150 10700 0    50   ~ 0
+A12
+Text Label 4150 10800 0    50   ~ 0
 A14
 Wire Wire Line
 	7450 9500 7200 9500
@@ -1784,4 +1780,8 @@ Text Label 7200 10800 0    50   ~ 0
 A13
 Text Label 7200 10900 0    50   ~ 0
 A14
+Text Label 4150 10900 0    50   ~ 0
+A13
+Wire Wire Line
+	4400 10900 4150 10900
 $EndSCHEMATC
