@@ -17,16 +17,10 @@ USB Bridge, USB to UART USB 2.0 UART Interface 20-QFN (3x3)
 336-5886-1-ND
 Rails: 5.0 (bus-powered). Note provides 3.3 when powered.
 
-SATA connector, data + power:
-Molex 0877791001
-22 Position SATA Receptacle Connector Solder Through Hole
-WM2071-ND
-Rails: 3.3, 5.0, 12.0
-
 SATA connector, just data:
-Molex 0678005005
-7 Position SATA Header, Shrouded Connector Solder Surface Mount
-WM19104-ND
+Molex 0470804001
+7 Position SATA Plug, Shrouded Connector Solder Surface Mount, Right Angle
+WM4279CT-ND
 Rails: none
 
 HDMI connector:
