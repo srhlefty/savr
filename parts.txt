@@ -35,11 +35,11 @@ DP83867CRRGZ
 296-51057-1-ND
 Rails: 1.0, 1.8 OR 2.5 OR 3.3
 
-Ethernet jack:
-Stewart Connector SS-7188S-A-NF
-Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded Cat5e
-380-1047-ND
-Rails: none
+Ethernet jack with magnetics and LEDs:
+Molex 0936273601
+1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
+WM16799-ND
+Rails: 2.5?? check a reference board
 
 uSD slot:
 Molex 5025700893
