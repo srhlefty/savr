@@ -34,6 +34,7 @@ DP83867CRRGZ
 10/100/1000 Ethernet PHY
 296-51057-1-ND
 Rails: 1.0, 1.8 OR 2.5 OR 3.3
+Note Zynq PS interface requires RGMII. This package, the QFN, only uses RGMII so that works.
 
 Ethernet jack with magnetics and LEDs:
 Molex 0936273601
